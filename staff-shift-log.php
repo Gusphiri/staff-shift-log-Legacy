@@ -1,7 +1,7 @@
 <?php  
 /*
  * Plugin Name:       Staff Shift Log  
- * Plugin URI:        https://github.dev/Gusphiri/staff-shift-log-Legacy
+ * Plugin URI:        https://augustinphiri.co.za/the-plugs/#ap-slp-plugs
  * Description:       Log and manage staff shift requests. 
  * Version:           1.1
  * Requires at least: 5.8+
