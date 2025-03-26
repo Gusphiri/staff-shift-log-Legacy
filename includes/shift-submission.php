@@ -13,8 +13,8 @@ add_shortcode('staff_shift_form', function() {
         <input type="text" name="staff_name" placeholder="Your Name" required>  
         <input type="date" name="shift_date" required>  
         <select name="shift_type" required>  
-            <option value="morning">Morning (6am-12pm)</option>  
-            <option value="afternoon">Afternoon (12pm-6pm)</option>  
+            <option value="earlybird">Early Bird (7am-5pm)</option>  
+            <option value="closer ">Closer (8am-6pm)</option>  
         </select>  
         <input type="hidden" name="action" value="submit_shift">  
         <?php wp_nonce_field('shift_form_nonce', 'shift_nonce'); ?>  
@@ -37,7 +37,7 @@ function ssl_handle_shift_submission() {
     $shift_date = sanitize_text_field($_POST['shift_date']);  
     $shift_type = sanitize_text_field($_POST['shift_type']);  
 
-    if (!preg_match('/^\d{4}-\d{2}-\d{2}$/', $shift_date) || !in_array($shift_type, ['morning', 'afternoon'])) {  
+    if (!preg_match('/^\d{4}-\d{2}-\d{2}$/', $shift_date) || !in_array($shift_type, ['earlybird', 'closer'])) {  
         wp_send_json_error('Invalid shift data.');  
     }  
 

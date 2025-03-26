@@ -39,7 +39,7 @@ add_shortcode('staff_shift_calendar', function() {
                             return {  
                                 title: shift.staff_name + ' (' + shift.shift_type + ')',  
                                 start: shift.shift_date,  
-                                color: shift.shift_type === 'morning' ? '#FFD700' : '#87CEEB'  
+                                color: shift.shift_type === 'earlybird' ? '#FFD700' : '#87CEEB'  
                             };  
                         }));  
                     } else {  

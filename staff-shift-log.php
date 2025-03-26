@@ -1,11 +1,21 @@
 <?php  
-/*  
-Plugin Name: Staff Shift Log  
-Description: Log and manage staff shift requests. 
-Author: Augustin Phiri
-Version: 1.0  
-copyright: Augustin   
-*/  
+/*
+ * Plugin Name:       Staff Shift Log  
+ * Plugin URI:        https://github.dev/Gusphiri/staff-shift-log-Legacy
+ * Description:       Log and manage staff shift requests. 
+ * Version:           1.0
+ * Requires at least: 5.8+
+ * Requires PHP:      7.4+ 
+ * Requires MySQL:    5.7+
+ * Author:            Augustin Phiri
+ * Author URI:        https://augustinphiri.co.za/
+ * License:           GPL v2 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Update URI:        https://augustinphiri.co.za/the-plugs/
+ * Text Domain:       staff-shift-log-Legacy
+ * Domain Path:       /languages
+ */
+
 // Load dependencies  
 require_once plugin_dir_path(__FILE__) . 'includes/admin-menu.php';  
 require_once plugin_dir_path(__FILE__) . 'includes/shift-submission.php';  
