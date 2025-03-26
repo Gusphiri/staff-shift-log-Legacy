@@ -3,7 +3,7 @@
  * Plugin Name:       Staff Shift Log  
  * Plugin URI:        https://github.dev/Gusphiri/staff-shift-log-Legacy
  * Description:       Log and manage staff shift requests. 
- * Version:           1.0
+ * Version:           1.1
  * Requires at least: 5.8+
  * Requires PHP:      7.4+ 
  * Requires MySQL:    5.7+
