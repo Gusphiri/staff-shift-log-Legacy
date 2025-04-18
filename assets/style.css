@@ -1,0 +1,26 @@
+#shift-form {  
+    display: grid;  
+    gap: 1rem;  
+    max-width: 400px;  
+    margin: 0 auto;  
+}  
+#shift-form input, #shift-form select {  
+    width: 100%;  
+    padding: 0.5rem;  
+}  
+#shift-response {  
+    margin-top: 1rem;  
+    text-align: center;  
+}  
+#shift-calendar {  
+    max-width: 900px;  
+    width: 100%;  
+    margin: 20px auto;  
+    font-family: Arial, sans-serif;  
+}  
+@media (max-width: 600px) {  
+    #shift-form, #shift-calendar {  
+        max-width: 100%;  
+        padding: 0 1rem;  
+    }  
+}

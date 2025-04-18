@@ -1,0 +1,22 @@
+{
+    "name": "augustinphiri/staff-shift-log",
+    "description": "Log and manage staff shift requests with admin approval",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Augustin Phiri",
+            "email": "augustinphiri@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "phpoffice/phpspreadsheet": "^1.29",
+        "tecnickcom/tcpdf": "^6.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "StaffShiftLog\\": "includes/"
+        }
+    }
+} 

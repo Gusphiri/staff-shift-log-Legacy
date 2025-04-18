@@ -1,0 +1,76 @@
+/* Staff Shift Log Styles */
+#shift-form {
+    max-width: 500px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#shift-form input[type="date"],
+#shift-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#shift-form input[type="submit"] {
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#shift-form input[type="submit"]:hover {
+    background-color: #005177;
+}
+
+#shift-response {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#shift-response.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+}
+
+#shift-response.error {
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+}
+
+/* Calendar styles */
+#shift-calendar {
+    margin: 20px 0;
+    min-height: 400px;
+}
+
+.fc-event {
+    cursor: pointer;
+}
+
+/* Admin table styles */
+.wp-list-table .column-actions {
+    width: 15%;
+}
+
+.wp-list-table .action-link {
+    margin-right: 10px;
+}
+
+.wp-list-table .action-link.delete {
+    color: #dc3232;
+}
+
+.wp-list-table .action-link.approve {
+    color: #46b450;
+} 
